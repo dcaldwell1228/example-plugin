@@ -1,0 +1,26 @@
+#dillon-testimonial-form{
+
+    .field-container {
+        position: relative;
+        margin-bottom: 16px;
+    }
+    .field-msg {
+        display: none;
+        position: absolute;
+        left: 2px;
+        bottom: -15px;
+        font-size: 9px;
+        text-transform: uppercase;
+        font-weight: 600;
+        letter-spacing: 0.05em;
+        &.show {
+            display: block;
+        }
+    }
+    .error {
+        color: #f00;
+    }
+    .success {
+        color: green;
+    }
+}

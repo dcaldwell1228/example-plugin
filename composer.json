@@ -1,0 +1,17 @@
+{
+    "name": "dcald/example-plugin",
+    "description": "example plugin project",
+    "type": "project",
+    "license": "GPL",
+    "authors": [
+        {
+            "name": "dcaldwell1228",
+            "email": "dcaldwell1228@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+    "autoload": {
+        "psr-4": {"Inc\\": "./inc"}
+    }
+}
